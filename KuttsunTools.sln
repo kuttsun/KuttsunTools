@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 14 for Windows Desktop
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taskbar", "Taskbar\Taskbar.vcxproj", "{7CB87BB4-028E-40C5-A669-3ACE09D6112A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceManager", "DeviceManager\DeviceManager.vcxproj", "{796BDF3A-44C5-424E-9F6C-AC8236ED6E1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChangeDisplaySettings", "ChangeDisplaySettings\ChangeDisplaySettings.vcxproj", "{5435E344-F621-4951-807A-3195C8D70306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,8 +39,21 @@ Global
 		{796BDF3A-44C5-424E-9F6C-AC8236ED6E1E}.Release|x64.Build.0 = Release|x64
 		{796BDF3A-44C5-424E-9F6C-AC8236ED6E1E}.Release|x86.ActiveCfg = Release|Win32
 		{796BDF3A-44C5-424E-9F6C-AC8236ED6E1E}.Release|x86.Build.0 = Release|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Debug|x64.ActiveCfg = Debug|x64
+		{5435E344-F621-4951-807A-3195C8D70306}.Debug|x64.Build.0 = Debug|x64
+		{5435E344-F621-4951-807A-3195C8D70306}.Debug|x86.ActiveCfg = Debug|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Debug|x86.Build.0 = Debug|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Release|x64.ActiveCfg = Release|x64
+		{5435E344-F621-4951-807A-3195C8D70306}.Release|x64.Build.0 = Release|x64
+		{5435E344-F621-4951-807A-3195C8D70306}.Release|x86.ActiveCfg = Release|Win32
+		{5435E344-F621-4951-807A-3195C8D70306}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD3CAC4-0FC1-4AA2-BDC3-D3DAC4C160E0}
 	EndGlobalSection
 EndGlobal
